@@ -1,8 +1,10 @@
 import React from "react";
+import { Navbar } from "components";
+import './styles.scss';
 
 const App = () => (
-  <div>
-    <h1>Hello, World!</h1>
+  <div style={{ backgroundColor: "#FEFEFE"}}>
+    <Navbar />
   </div>
 );
 
