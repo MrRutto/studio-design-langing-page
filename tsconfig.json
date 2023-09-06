@@ -28,7 +28,8 @@
       "module": "ES2022",
       "moduleResolution": "node",
       "paths": {
-        "@components/*": ["./src/components/*"]
+        "@assets/*": ["./src/assets/*"],
+        "@components/*": ["./src/components/*"],
       },
       
       // Language and Environment Configuration
