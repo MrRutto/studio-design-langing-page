@@ -1,0 +1,38 @@
+.banner{ 
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    border: 1px solid #000;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    button {
+        z-index: 1;
+    }
+    .dotMatrixWrapper {
+        position: absolute;
+        bottom: 30px;
+        left: -40px;
+    }
+}
+
+.heroHeader {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.heroContent {
+    line-height: 1.6;
+    margin-bottom: 33px;
+}
+
