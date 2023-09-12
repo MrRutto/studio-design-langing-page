@@ -1,0 +1,50 @@
+
+.googleImage {
+    width: 150px;
+    height: 49px;
+    margin-right: 30px;
+    flex-shrink: 0;
+    margin-top: 1rem;
+}
+
+.airbnbImage {
+    width: 166px;
+    height: 52px;
+    margin: 0 30px;
+    margin-top: 1rem;
+}
+
+.uberEatsImage {
+    width: 166px;
+    height: 27px;
+    margin: 0 30px;
+    margin-top: 1rem;
+}
+
+.amazonImage {
+    width: 142px;
+    height: 42px;
+    margin-left: 30px;
+    margin-top: 1rem;
+}
+
+.logoWrapper {
+    @media screen and (max-width: 1200px) {
+        margin: 30px;
+    }
+    @media screen and (max-width: 1024px) {
+        margin: 30px;
+    }
+    @media screen and (max-width: 768px) {
+        // margin: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    @media screen and (max-width: 480px) {
+        // margin: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
