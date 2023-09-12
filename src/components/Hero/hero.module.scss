@@ -5,15 +5,11 @@
     justify-content: space-between;
     align-items: stretch;
     flex-wrap: wrap;
-    border: 1px solid #000;
 }
 
 .content {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
+    max-width: 30%;
 
     button {
         z-index: 1;

@@ -6,7 +6,7 @@ import { Button } from "components/Button";
 const Hero = () => {
     return (
         <div className={styles.banner}>
-            <div className={`container col-12 col-md-4 ${styles.content}`}>
+            <div className={`container ${styles.content}`}>
                 <div style={{ zIndex: 1 }}>
                     <h1 className={styles.heroHeader}>A Digital Product Agency</h1>
                     <p  className={styles.heroContent}>Leading digital agency with solid design and development expertise. We build readymade websites, mobile applications, and elaborate online business services.</p>
